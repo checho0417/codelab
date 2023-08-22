@@ -132,7 +132,6 @@ private fun Greeting(name: String) {
                 onClick = { expanded = !expanded}
             ) {
                 Text(if (expanded) "Show less" else "Show more")
-
             }
         }
     }
