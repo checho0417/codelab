@@ -112,7 +112,7 @@
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="Apple" />
 
-            <!-- <TextView
+                 <TextView
                  android:id="@+id/plant_watering_header"
                  android:layout_width="0dp"
                  android:layout_height="wrap_content"
@@ -140,20 +140,20 @@
                  app:wateringText="@{viewModel.plant.wateringInterval}"
                  tools:text="every 7 days" />
 
-             <TextView
-                 android:id="@+id/plant_description"
-                 style="?android:attr/textAppearanceMedium"
-                 android:layout_width="0dp"
-                 android:layout_height="wrap_content"
-                 android:layout_marginStart="@dimen/margin_small"
-                 android:layout_marginTop="@dimen/margin_small"
-                 android:layout_marginEnd="@dimen/margin_small"
-                 android:minHeight="@dimen/plant_description_min_height"
-                 app:layout_constraintEnd_toEndOf="parent"
-                 app:layout_constraintStart_toStartOf="parent"
-                 app:layout_constraintTop_toBottomOf="@id/plant_watering"
-                 app:renderHtml="@{viewModel.plant.description}"
-                 tools:text="Details about the plant" />-->
+                 <TextView
+                    android:id="@+id/plant_description"
+                    style="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:minHeight="@dimen/plant_description_min_height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/plant_watering"
+                    app:renderHtml="@{viewModel.plant.description}"
+                    tools:text="Details about the plant" />
 
          </androidx.constraintlayout.widget.ConstraintLayout>
 
